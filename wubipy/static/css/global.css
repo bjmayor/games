@@ -1,0 +1,169 @@
+*{
+	margin:0 0 0 0 ;
+	padding:0 0 0 0 ;
+}
+body, p, form, ul, li, dl, dt, dd {
+    list-style: none outside none;
+}
+body {
+    font: 12px arial;
+	margin:0 auto;
+	width:800px;
+}
+.clr{
+clear:both;
+}
+
+.header_t {
+    height: 60px;
+    margin: 10px auto;
+    width: 800px;
+}
+.newlogo, .mblogo, .mblogolink {
+    height: 60px;
+    min-width: 138px;
+}
+.newlogo {
+    float: left;
+    position: relative;
+}
+.mblogo, .mblogolink {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.mblogolink:hover {
+    background: url("/static/img/wubilog.png") no-repeat  transparent;
+}
+.mblogo {
+    background: url("/static/img/wubilog.png") no-repeat scroll left top transparent;
+    width: 147px;
+}
+.newlogo h2 {
+    display: inline;
+    float: left;
+    margin: 23px 0 0 147px;
+}
+.newlogo img {
+    border: 0 none;
+}
+.seacher_r_bg_t {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: inline;
+    float: right;
+    height: 34px;
+    margin: 20px 0 0;
+    opacity: 0.8;
+    width: 530px;
+}
+.seacher_r_bg_t ul, .seacher_r_bg_t ul li, .seacher_r_bg_t ul li a {
+    float: left;
+}
+.seacher_r_bg_t ul {
+    padding: 0 0 0 155px;
+    width: 245px;
+}
+.seacher_r_bg_t ul li {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 6px;
+    position: relative;
+}
+.seacher_r_bg_t ul li a {
+    height: 34px;
+    line-height: 34px;
+}
+
+.highlight{
+ font-size: 14px; font-weight: bold;
+}
+div#result{
+margin-top:42px;
+border:1px solid #72bfeb;
+padding:10px 10px 10px 0px;
+width:229px;
+width:250px\9;
+}
+div#result div{
+clear:both;
+}
+ul.li_float li{
+	float:left;
+	width:60px;
+	font-size:26px;
+	margin-left:15px;
+	width:60px;
+	height:54px;
+	font-family:宋体;
+}
+ul.head li{
+	height:34px;
+	height:24px\9;
+}
+.message{
+
+font-size:18px;
+color:red;
+font-weight:bold;
+margin-top:5px;
+}
+
+input{
+font-size:12px;
+min-width:60px;
+}
+pre{
+line-height:24px;
+font-family:宋体;
+color:#1a76b1;
+font-size:14px;
+}
+
+#key{
+  border-color: #d6d8d3 #d6d8d3  #d6d8d3  #d6d8d3 ;
+  border-style: solid;
+  border-width: 1px;
+  font: 14px 宋体;
+  color: #717372;
+  height: 29px;
+  padding: 4px 12px;
+  vertical-align: top;
+  width: 250px;
+  width:247px\9;
+  margin:  6px 5px 0 0;
+}
+.btn{
+  background: url("../../static/img/s.png") no-repeat;
+  border: 0 none;
+  cursor: pointer;
+  height: 24px;
+  margin-top:9px;
+  padding: 0;
+  width: 45px;
+  font-size:14px;
+  position:relative;
+  right:55px;
+  bottom:0px;
+}
+.btn_h{background-position:-100px -35px}
+.zi{
+  background: url("../../static/img/zibg.jpg") no-repeat transparent;
+}
+.zi span{
+padding-top:12px;
+display:block;
+text-align:center;
+}
+.form_wap{
+position:absolute;
+}
+
+.hanzi-bg{
+background: url("../../static/img/hanzi.png") no-repeat  transparent;
+}
+.wubi-bg{
+background: url("../../static/img/wubi.png") no-repeat  transparent;
+}
+.pinyin-bg{
+background: url("../../static/img/pinyin.png") no-repeat  transparent;
+}
